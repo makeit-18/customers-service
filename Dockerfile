@@ -4,8 +4,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-ADD ./api/target/classes /app
-ADD ./api/target/dependency /dependency
+ADD ./api/target/ /app
 
 EXPOSE 8080
 
