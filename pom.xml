@@ -107,4 +107,27 @@
         </snapshotRepository>
     </distributionManagement>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>com.amashchenko.maven.plugin</groupId>
+                    <artifactId>gitflow-maven-plugin</artifactId>
+                    <version>${gitflow-plugin.version}</version>
+                    <configuration>
+                        <gitFlowConfig>
+                            <productionBranch>master</productionBranch>
+                            <developmentBranch>develop</developmentBranch>
+                            <featureBranchPrefix>feature/</featureBranchPrefix>
+                            <releaseBranchPrefix>release/</releaseBranchPrefix>
+                            <hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
+                            <versionTagPrefix>v</versionTagPrefix>
+                            <origin>origin</origin>
+                        </gitFlowConfig>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
 </project>
