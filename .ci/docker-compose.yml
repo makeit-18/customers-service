@@ -2,7 +2,7 @@ version: '3'
 
 services:
     customers-service-prod:
-        image: ${IMAGE_NAME}
+        image: nexus-ci.kumuluz.com/makeit-18/customers:1.2.0-10
         restart: always
         ports:
             - 8084:8080
