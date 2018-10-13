@@ -7,7 +7,7 @@ services:
         ports:
             - 8083:8080
         networks:
-            - customers-network
+            - customers-service-network
 
     customers-database:
         image: postgres:latest
@@ -19,7 +19,7 @@ services:
         ports:
             - 5432:5432
         networks:
-            - customers-network
+            - customers-service-network
 
 networks:
-  customers-network:
+  customers-service-network:
