@@ -97,10 +97,12 @@
     <distributionManagement>
         <repository>
             <id>nexus-ci</id>
+            <name>nexus-ci</name>
             <url>http://nexus-ci.kumuluz.com/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-ci</id>
+            <name>nexus-ci</name>
             <url>http://nexus-ci.kumuluz.com/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
