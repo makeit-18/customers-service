@@ -1,15 +1,15 @@
 version: '3'
 
 services:
-    customers-service:
+    customers-service-prod:
         image: ${IMAGE_NAME}
         restart: always
         ports:
-            - 8083:8080
+            - 8084:8080
         networks:
-            - customers-network
+            - customers-network-prod
 
-    customers-database:
+    customers-database-prod:
         image: postgres:latest
         restart: always
         environment:
@@ -17,9 +17,9 @@ services:
           - POSTGRES_PASSWORD=postgres
           - POSTGRES_DB=customer
         ports:
-            - 5432:5432
+            - 5433:5432
         networks:
-            - customers-network
+            - customers-network-prod
 
 networks:
-  customers-network:
+  customers-network-prod:
