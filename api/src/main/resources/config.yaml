@@ -9,7 +9,7 @@ kumuluzee:
       port: 8080
   datasources:
     - jndi-name: jdbc/CustomersDS
-      connection-url: jdbc:postgresql://customers-database:5432/customer
+      connection-url: jdbc:postgresql://customers-database-prod:5432/customer
       username: dbuser
       password: postgres
       max-pool-size: 20
