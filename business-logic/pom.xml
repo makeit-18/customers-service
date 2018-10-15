@@ -5,11 +5,7 @@
     <parent>
         <groupId>com.kumuluz.ee.blog</groupId>
         <artifactId>customers</artifactId>
-<<<<<<< HEAD
         <version>1.4.0-SNAPSHOT</version>
-=======
-        <version>1.3.2</version>
->>>>>>> e311b57473f0d553ce518a72f55cb08e813a8234
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
