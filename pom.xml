@@ -6,7 +6,11 @@
 
     <groupId>com.kumuluz.ee.blog</groupId>
     <artifactId>customers</artifactId>
+<<<<<<< HEAD
     <version>1.6.0-SNAPSHOT</version>
+=======
+    <version>1.5.1</version>
+>>>>>>> b5b4b00b7d7bb62c5bf98847cf0c73e3609ea31b
 
     <packaging>pom</packaging>
 
@@ -86,12 +90,20 @@
             <dependency>
                 <groupId>com.kumuluz.ee.blog</groupId>
                 <artifactId>customers-business-logic</artifactId>
+<<<<<<< HEAD
                 <version>1.6.0-SNAPSHOT</version>
+=======
+                <version>1.5.1</version>
+>>>>>>> b5b4b00b7d7bb62c5bf98847cf0c73e3609ea31b
             </dependency>
             <dependency>
                 <groupId>com.kumuluz.ee.blog</groupId>
                 <artifactId>customers-persistence</artifactId>
+<<<<<<< HEAD
                 <version>1.6.0-SNAPSHOT</version>
+=======
+                <version>1.5.1</version>
+>>>>>>> b5b4b00b7d7bb62c5bf98847cf0c73e3609ea31b
             </dependency>
         </dependencies>
     </dependencyManagement>
