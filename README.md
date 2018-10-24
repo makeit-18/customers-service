@@ -1,5 +1,7 @@
 # Customers microservice
 
+A sample microservce for demonstrating the CI cycle. 
+
 ## Prerequisites
 
 ```bash
